@@ -1,0 +1,92 @@
+div{
+    color:whitesmoke;
+    font-style:italic;
+  }
+  html{
+    background-image: url('2.gif');
+    background-size: cover;
+  
+  }
+  
+  .App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  
+  }
+  
+  h1 {
+    color: #e9e6e6;
+    font-style: italic;
+  
+  }
+  
+  .filter {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  
+  }
+  
+  .crud-form {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .crud-form h2 {
+    margin-bottom: 100px;
+    color: #af2d2d;
+  }
+  
+  button {
+    padding: 8px 20px;
+    background-color: #2196f3;
+    color: #fcfafa;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 20px;
+    text-align:center;
+  }
+  
+  button:hover {
+    background-color: #0e6eb8;
+  }
+  
+  .fruit-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .fruit-item {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+  
+  }
+  
+  .fruit-item strong {
+    color: #a09c9c;
+  }
+  
+  .fruit-item button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .fruit-item button:hover {
+    background-color: #d32f2f;
+  }
